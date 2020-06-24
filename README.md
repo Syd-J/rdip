@@ -1,0 +1,2 @@
+# rdip
+rdip virtual labs
