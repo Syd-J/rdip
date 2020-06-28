@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="css/ass1_style.css"> 
+</head>
+<body>
+	<div id="top">
+		<a href="https://www.iiit.ac.in/"><img src="iiit-new.png" id="logo"></a>
+		<a href="https://serc.iiit.ac.in/rdip" id="rdip">RDIP</a>
+	</div><br>
+	<div>
+		<ul id="nav-bar">
+			<li class="links"><a href="homepage.html">Home</a></li>
+			<li class="links"><a href="registration.html">Registration Form</a></li>
+		</ul>
+	</div><br><br><br><br>
+	<div>
+		<table>	
+			<form action="details.html" method="get">	
+				<tr>
+					<td class="frm"><label for="fname">First name:</label></td>
+					<td class="frm"><input type="text" id="fname" required name="fname"></td>
+				</tr>
+				<tr>
+					<td class="frm"><label for="email">Email:</label></td>
+					<td class="frm"><input type="email" id="email" required name="email"></td>
+				</tr>
+				<tr>
+					<td class="frm"><label for="phone">Phone No:</label></td>
+					<td class="frm"><input type="number" id="phone" required name="phone"></td>
+				</tr>
+				<tr>
+					<td class="frm">Gender:</td>
+					<td class="frm">
+						<input type="radio" id="male" required name="gender" value="male">
+						<label for="male">Male </label>
+						<input type="radio" id="female" required name="gender" value="female">
+						<label for="female">Female </label>
+						<input type="radio" id="other" required name="gender" value="other">
+						<label for="other">Other </label>
+					</td>
+				<tr>
+					<td class="frm">Reason for RDIP:</td>
+					<td class="frm">	
+						<div class="checkbox-group required">
+							<input type="radio" id="html" required name="reason" value="html">
+							<label for="html">HTML </label>
+							<input type="radio" id="css" required name="reason" value="css">
+							<label for="css">CSS </label>
+							<input type="radio" id="javascript" required name="reason" value="javascript">
+							<label for="javascript">JavaScript </label>
+						</div>
+					</td>
+				<tr>
+					<td class="frm"><label for="college">College:</label></td>
+					<td class="frm"><input type="text" id="college" required name="college"></td>
+				<tr>
+					<td class="frm"><input type="checkbox" id="agree" required name="agree"></td>
+					<td class="frm"><label for="agree">I declare above details given by me are true.</label></td>
+				</tr>
+				<tr>
+					<td class="frm"><input type="submit" value="Submit"></td>
+					<td class="frm"><input type="reset"></td>
+				</tr>
+			</form>
+		<table>		
+	</div>
+</body>
+</html>

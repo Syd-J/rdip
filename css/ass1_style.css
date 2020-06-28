@@ -1,0 +1,78 @@
+#top {
+	display: block;
+}
+
+#logo {
+	top: 15px;
+	left: 15px;
+	width: 150px;
+	height: 75px;
+}
+
+#rdip {
+	float: right;
+	font-size: 35px; 
+}
+
+#nav-bar {
+	display: block;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+	background-color: black;
+	position: fixed;
+	width: 100%;
+}
+
+li.links {
+	float: left;
+}
+
+li.links a:link, a:visited {
+	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+
+li.links a:hover, a:visited {
+	background-color: gray;
+	color: white;
+}
+
+table.home, th, td {
+  	border: 3px solid black;
+  	border-collapse: collapse;
+}
+
+th:first-child, td:first-child {
+	text-align: center;
+	padding: 10px 50px;
+}
+
+th:last-child, td:last-child {
+	text-align: center;
+	padding: 10px 125px;
+}
+
+td {
+	font-weight: bold;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+#pic {
+	float: right;
+	width: 205px;
+}
+
+table.frm, td.frm {
+	font-weight: bold;
+	text-align: center;
+	border: none;
+	padding: 5px;
+}
