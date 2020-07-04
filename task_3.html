@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Task 3</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content= "width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../HTML/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/task_3.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<h2>Task 3</h2>
+	</div>
+	<div class="container">
+		<p>Click on a button to check string for palindrome or anagram</p>
+		<button class="btn btn-primary btn-lg" id="palin">Palindrome</button>
+		<button class="btn btn-primary btn-lg" id="anag">Anagram</button>
+	</div><br>
+	<div id="direct" class="container" style="display: none;">
+		<p id="chkstr1">Enter string as input: </p>
+		<input type="text" name="str1" id="str1">
+		<p id="chkstr2">Enter another string: </p>
+		<input type="text" name="str2" id="str2">
+		<button class="btn btn-success btn-lg" id="chk">Check</button>
+		<p id="outStr"></p>
+	</div>
+	<script type="text/javascript" src="scripts/ass2.js"></script>
+</body>
+</html>

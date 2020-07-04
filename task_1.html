@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Task 1</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content= "width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../HTML/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/task_1.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">	
+		<h2>Task 1</h2>
+	</div>	
+	<div class="container">	
+		<p>Select an operation to perform:</p>
+		<select id="operation">
+			<option value="add">Addition</option>
+			<option value="subtract">Subtraction</option>
+			<option value="divide">Division</option>
+			<option value="multiply">Multiplication</option>
+			<option value="percent">Percentage</option>
+			<option value="abs">Absolute</option>
+			<option value="sqrt">Square Root</option>
+		</select>
+		<button class="btn btn-primary btn-lg" id="takeInput">Perform</button><br><br>
+	</div>
+	<div id="calculator" class="container" style="display: none;">	
+		<p id="help">Click on "=" to calculate</p>
+		<p id="unOp"></p>
+		<input type="number" name="num1" id="num1">
+		<p id="binOp"></p>
+		<input type="number" name="num2" id="num2">
+		<button class="btn btn-success btn-lg" id="equals">=</button>
+		<p id="opOutput"></p>
+	</div>
+	<script type="text/javascript" src="scripts/ass2.js"></script>	
+</body>
+</html>

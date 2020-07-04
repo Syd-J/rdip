@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Task 4</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content= "width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../HTML/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/task_4.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<h2>Task 4</h2>
+	</div>
+	<div class="container">
+		<h3>WHO WILL SURVIVE BETWEEN...?</h3>
+		<p>Click on the button to generate random numbers between 0 and 1000 and find out the answer</p>
+		<button class="btn btn-primary btn-lg" id="generate">Generate</button>
+	</div>
+	<div class="container" id="main" style="display: none;">	
+		<div class="container">
+			<input type="text" name="rnd1" id="rnd1">
+			<p id="and">and</p>
+			<input type="text" name="rnd2" id="rnd2">
+		</div><br>
+		<div class="container">
+			<button class="btn btn-success" id="show">Show Winner!</button>
+		</div><br>
+		<div class="container">
+			<p id="winner"></p>
+		</div>
+	</div>	
+	<script type="text/javascript" src="scripts/ass2.js"></script>
+</body>
+</html>
